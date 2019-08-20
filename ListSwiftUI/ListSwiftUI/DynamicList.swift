@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DynamicList.swift
 //  ListSwiftUI
 //
 //  Created by Atif on 20/08/2019.
@@ -8,16 +8,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DynamicList: View {
     var body: some View {
-        Text("Hello World")
+        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #if DEBUG
-struct ContentView_Previews: PreviewProvider {
+struct DynamicList_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DynamicList()
     }
 }
 #endif
