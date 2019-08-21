@@ -12,8 +12,11 @@ struct ItemRow: View {
     var item: Item
     var body: some View {
         VStack(alignment: .leading) {
-            Text("\(item.title)").bold()
+            Text("\(item.title)")
+                .font(.largeTitle)
+                .foregroundColor(Color.black)
             Text("\(item.detail)")
+                .foregroundColor(Color.gray)
         }
     }
 }

@@ -18,7 +18,9 @@ struct DynamicList: View {
                     Item(title: "Sydney", detail: "Australia")
                   ]
     return List (array) { item in
-        ItemRow(item: item)
+        NavigationLink(destination: DetailView(item: item).navigationBarTitle("Detail", displayMode: .inline)) {
+                ItemRow(item: item)
+            }
         }
     }
 }
