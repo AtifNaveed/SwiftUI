@@ -13,6 +13,7 @@
 ------------------------------------------------------------------------------------
 # Static List
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/2_kmz14m.png)
+
 ------------------------------------------------------------------------------------
 # Dynamic List
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/4_ixx1jw.png)
@@ -21,6 +22,7 @@
 - VStack
 - HStack
 
+------------------------------------------------------------------------------------
 # Navigation Controller
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388867/1_yizfuq.png)
 - NavigationView
