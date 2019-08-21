@@ -9,15 +9,16 @@
 import SwiftUI
 
 struct Home: View {
-    @State private var showDetails = false
-
     var body: some View {
-        VStack(alignment: .leading) {
-            Button(action: {})
-            {Text("Static List").font(.title)}.padding(20).clipShape(Rectangle()).overlay(Rectangle().stroke(Color.blue, lineWidth: 5))
-         
-            Button(action: {})
-                     {Text("Dynamic List").font(.title)}.padding(20).clipShape(Rectangle()).overlay(Rectangle().stroke(Color.blue, lineWidth: 5))
+        NavigationView {
+            VStack(alignment: .leading) {
+                NavigationLink(destination: StaticList()) {
+                    Text("Static List").font(.title).padding(20).clipShape(Rectangle()).overlay(Rectangle().stroke(Color.blue, lineWidth: 5))
+                }.navigationBarTitle("Home")
+                NavigationLink(destination: DynamicList()) {
+                    Text("Dynamic List").font(.title).padding(20).clipShape(Rectangle()).overlay(Rectangle().stroke(Color.blue, lineWidth: 5))
+                }.navigationBarTitle("Home")
+            }
         }
     }
 }

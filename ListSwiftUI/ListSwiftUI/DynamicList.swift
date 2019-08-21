@@ -10,7 +10,16 @@ import SwiftUI
 
 struct DynamicList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+       let array = [
+                    Item(title: "Lahore", detail: "Pakistan"),
+                    Item(title: "Dubai", detail: "United Arab Emirates"),
+                    Item(title: "New York", detail: "United States"),
+                    Item(title: "Toronto", detail: "Canada"),
+                    Item(title: "Sydney", detail: "Australia")
+                  ]
+    return List (array) { item in
+        ItemRow(item: item)
+        }
     }
 }
 
@@ -21,3 +30,4 @@ struct DynamicList_Previews: PreviewProvider {
     }
 }
 #endif
+
