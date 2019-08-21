@@ -12,10 +12,10 @@ struct Home: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
-                NavigationLink(destination: StaticList()) {
+                NavigationLink(destination: StaticList().navigationBarTitle("Static List", displayMode: .inline)) {
                     Text("Static List").font(.title).padding(20).clipShape(Rectangle()).overlay(Rectangle().stroke(Color.blue, lineWidth: 5))
                 }.navigationBarTitle("Home")
-                NavigationLink(destination: DynamicList()) {
+                NavigationLink(destination: DynamicList().navigationBarTitle("Static List", displayMode: .inline)) {
                     Text("Dynamic List").font(.title).padding(20).clipShape(Rectangle()).overlay(Rectangle().stroke(Color.blue, lineWidth: 5))
                 }.navigationBarTitle("Home")
             }
