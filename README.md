@@ -19,5 +19,8 @@
 - HStack
 
 # Navigation Controller
-![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566377734/6_ohltqy.png)
+![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388867/1_yizfuq.png)
+![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/2_kmz14m.png)
+![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/4_ixx1jw.png)
+![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388869/3_syvkbd.png)
 - NavigationView
