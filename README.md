@@ -12,9 +12,10 @@
 
 # List
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/2_kmz14m.png)
+- Static List
+
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/4_ixx1jw.png)
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388869/3_syvkbd.png)
-- Static List
 - Dynamic List  
 - NavigationView
 - VStack
