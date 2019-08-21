@@ -10,14 +10,14 @@
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566211750/5_xxelkm.png)
 - DarkMode
 
-# List
+------------------------------------------------------------------------------------
+# Static List
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/2_kmz14m.png)
-- Static List
-
+------------------------------------------------------------------------------------
+# Dynamic List
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388868/4_ixx1jw.png)
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1566388869/3_syvkbd.png)
-- Dynamic List  
-- NavigationView
+
 - VStack
 - HStack
 
