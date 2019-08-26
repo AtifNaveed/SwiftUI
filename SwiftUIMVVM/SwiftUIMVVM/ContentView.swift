@@ -17,7 +17,8 @@ struct ContentView: View {
             // TODO textfield binding crashed
             TextField("Enter amount: ", text: $vm.amount)
             .padding()
-         
+            
+            // Picker bind with ViewModel
             Picker(selection: $vm.selectedIndex, label: Text("Picker")) {
                 ForEach(0 ..< vm.options.count) {
                     Text("\(self.vm.options[$0])")
@@ -30,7 +31,8 @@ struct ContentView: View {
                 Text("Calculate")
             }.padding()
 
-                    
+
+            // Text bind with ViewModel
             Text("Calculated value is: \(vm.calculatedValue)")
         }
 
